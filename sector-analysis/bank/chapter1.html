@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="business profit analysis">
+    <meta name="keywords" content="Quick Note: AISA">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>บทที่ 1 - วัฏจักรเศรษฐกิจกำหนดทิศทางธุรกิจ</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css" integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5+" crossorigin="anonymous">    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js" integrity="sha384-7zkQWkzuo3B5mTepMUcHkMB5jZaolc2xDwL6VFqjFALcbeS9Ggm/Yr2r3Dy4lfFg" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js" integrity="sha384-43gviWU0YVjaDtb/GhzOouOXtZMP/7XUzwPTstBeZFe/+rCMvRwr4yROQP43s0Xk" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Itim">
+    <style>
+    body {font-size: 1.25em;} 
+    body, .katex{font-family: Itim;}</style>
+</head>
+<body>
+    <nav class="navbar bg-body-tertiary fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">การวิเคราะห์หุ้นราย Sector: หุ้นกลุ่มธนาคาร</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">สารบัญ</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+                <ol class="list-group list-group-numbered list-group-flush">
+                    <li class="list-group-item active" aria-current="true">วัฏจักรเศรษฐกิจกำหนดทิศทางธุรกิจ</li>
+                    <li class="list-group-item"><a href="chapter2.html">ทำความรู้จักสถาบันการเงินของไทย</a></li>
+                    <li class="list-group-item"><a href="chapter3.html">วิเคราะห์สินเชื่อ</a></li>
+                    <li class="list-group-item"><a href="chapter4.html">วิเคราะห์เงินฝาก</a></li>
+                    <li class="list-group-item"><a href="chapter5.html">วิเคราะห์เงินลงทุน</a></li>
+                    <li class="list-group-item"><a href="chapter6.html">วิเคราะห์รายได้</a></li>
+                    <li class="list-group-item"><a href="chapter7.html">วิเคราะห์ค่าใช้จ่าย</a></li>
+                    <li class="list-group-item"><a href="chapter8.html">วิเคราะห์ NPL</a></li>
+                    <li class="list-group-item"><a href="chapter9.html">วิเคราะห์สภาพคล่อง</a></li>
+                    <li class="list-group-item"><a href="chapter10.html">วิเคราะห์เงินกองทุน</a></li>
+                    <li class="list-group-item"><a href="chapter11.html">วิเคราะห์งบการเงิน</a></li>
+                    <li class="list-group-item"><a href="chapter12.html">วิเคราะห์อัตราส่วนทางการเงิน</a></li>
+                    <li class="list-group-item"><a href="chapter13.html">การประเมินมูลค่ากิจการ</a></li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="container">
+    <div class="row">
+    <div class="col-lg-2"></div>
+    <div class="col">
+        <h1 class="text-center pt-5 mt-5">วัฏจักรเศรษฐกิจกำหนดทิศทางธุรกิจ</h1>
+        <figure>
+            <blockquote class="blockquote">
+              <p style="text-align: justify;">“ปี 2558 เป็นปีที่ยากลำบากของภาคสถาบันการเงินรวมทั้ง ธนาคารไทยพาณิชย์ เนื่องจากมีเหตุการณ์ต่างๆ เกิดขึ้นมากมาย รวมทั้งสภาพเศรษฐกิจที่ยังไม่ฟื้นตัวอย่างที่คาดการณ์ไว้ ส่งผล ให้ธนาคารมีผลประกอบการลดลงจากปีก่อน ในภาวะที่เศรษฐกิจ ของโลกและประเทศไทยชะลอตัวอย่างมากในช่วงปีที่ผ่านมา ธนาคารได้มุ่งเน้นที่จะดูแลช่วยเหลือลูกค้าของธนาคารอย่ ใกล้ชิดไปพร้อมกับการบริหารความเสี่ยงในทุกๆ ด้านอย่าง เข้มข้น”</p>
+            </blockquote>
+            <figcaption class="blockquote-footer text-end">
+                <span class="fs-4">อาทิตย์ นันทวิทยา</span></br>
+                <cite class="fst-italic">ประธานเจ้าหน้าที่บริหาร และรองประธานกรรมการบริหาร รนาคารไทยพาณิชย์</cite>
+            </figcaption>
+          </figure>
+        <p>บทสรุปผู้บริหารดังกล่าวเป็นเครื่องยืนยันถึงผลกระทบต่อการเติบโต และผลการดำเนินงานของธนาคารในช่วงที่เศรษฐกิจชะลอตัว จึงจำเป็นที่จะต้อง กำหนดนโยบายธุรกิจแบบตั้งการ์ด หรือขันน็อตให้แน่นเป็นพิเศษ เพื่อลด ผลกระทบต่อคุณภาพของสินทรัพย์ในระยะยาว ดังคำพูดเปรยๆ ในกลุ่ม นักลงทุนที่ว่า "เศรษฐกิจฝืดเคือง เลี่ยงหุ้นธนาคารไปก่อนดีกว่า"</p>
+        <p>กติแล้วทิศทางการเติบโตของธุรกิจ ซึ่งไม่ได้เกินจริงเลย เพราะโดยปกติแล้วทิศทางการเติบโตของธุรกิจ ธนาคารจะแปรผันไปตามวงจรเศรษฐกิจของประเทศ หรือเป็น Cyclical Industry คือ จะเห็นการเติบโตของรายได้ที่สูงขึ้นในช่วงที่เศรษฐกิจฟื้นตัวและเติบโต เนื่องจากรายได้ของผู้ประกอบการและเงินในกระเป๋าของผู้บริโภคจะเพิ่มขึ้น ช่วยกระตุ้นความต้องการใช้สินเชื่อจากธนาคารมากขึ้นเพื่อไปขยายการลงทุน ใหม่ๆ รองรับการเติบโตในอนาคต ขณะที่รายได้ของธนาคารจะเติบโตลดลง ในช่วงที่เศรษฐกิจชะลอตัวหรือหดตัว ตามทิศทางรายได้ของผู้ประกอบการและผู้บริโภคที่ชะลอตัว ทำให้ต้องระมัดระวังเงินในกระเป๋ามากขึ้น และชะลอ การลงทุนใหม่ๆ ออกไปก่อนเพื่อดูสถานการณ์ (wait and see) ซึ่งจะไปกระทบ ต่อความต้องการสินเชื่อจากธนาคารด้วย</p>
+        <p>ดังนั้น การพิจารณาแนวโน้มการเติบโตของเศรษฐกิจไทยและเศรษฐกิจ โลก จึงจำเป็นมากสำหรับการวิเคราะห์หุ้นธนาคาร โดยติดตามการเปลี่ยนแปลง ของเครื่องยนต์หลักๆ ที่ขับเคลื่อนการเติบโตของเศรษฐกิจ (Gross Domestic Product: GDP) ประกอบด้วยการใช้จ่ายเพื่อการอุปโภคบริโภคของครัวเรือน (C: Consumption) การลงทุนของภาคธุรกิจในประเทศ (I: Investment) การใช้จ่ายของรัฐบาลในการซื้อสินค้าและบริการ (G: Government Spending) และการส่งออกสุทธิ (X – M: Net Export) ซึ่งตราบใดที่เครื่องยนต์เหล่านี้ ยังปฏิบัติหน้าที่ได้โดยไม่บกพร่อง ก็จะยิ่งดีต่อการขยายสินเชื่อของธนาคาร แต่หากเครื่องยนต์ชิ้นใดทำงานไม่ได้ตามปกติ จะเป็นแรงฉุดการเติบโตของธนาคารให้ทรุดตามไปด้วย</p>
+        <div class="card my-2">
+            <div class="card-header">
+                <h4 class="card-title">ประมาณการการเติบโตของเศรษฐกิจปี 2559</h4> 
+            </div>
+            <div class="card-body">
+                <table class="table">            
+                    <thead>              
+                        <tr>
+                            <th scope="col" rowspan="2"></th>
+                            <th scope="col" rowspan="2" class="align-middle text-center">ข้อมูลจริง</br>ปี 2558</th>
+                            <th scope="col" colspan="2" class="text-center">ประมาณการ ปี 2559</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="text-center">16 พ.ย. 2558</th>
+                            <th scope="col" class="text-center">16 พ.ย. 2559</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                        <tr>
+                            <th scope="row">การขยายตัวของ GDP (%YoY)</th>
+                            <td class="text-center">2.8</td>
+                            <td class="text-center">3.0 - 4.0</td>
+                            <td class="text-center">2.8 - 3.8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">การบริโภคภาคเอกชน (%YoY)</th>
+                            <td class="text-center">2.1</td>
+                            <td class="text-center">2.6</td>
+                            <td class="text-center">2.7</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">การบริโภคภาครัฐ (%YoY)</th>
+                            <td class="text-center">2.2</td>
+                            <td class="text-center">3.2</td>
+                            <td class="text-center">3.7</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">การลงทุนภาคเอกชน (%YoY)</th>
+                            <td class="text-center">2</td>
+                            <td class="text-center">4.7</td>
+                            <td class="text-center">3.2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">การลงทุนภาครัฐ (%YoY)</th>
+                            <td class="text-center">29.8</td>
+                            <td class="text-center">11.2</td>
+                            <td class="text-center">11.2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">มูลค่าการส่งออก (USD) (%YoY)</th>
+                            <td class="text-center">-5.6</td>
+                            <td class="text-center">3</td>
+                            <td class="text-center">1.2</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">เงินเฟ้อ (%YoY)</th>
+                            <td class="text-center">-0.9</td>
+                            <td class="text-center">1.0-2.0</td>
+                            <td class="text-center">(-0.1)-0.8</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">ดุลบัญชีเดินสะพัด (%YoY)</th>
+                            <td class="text-center">8.9</td>
+                            <td class="text-center">5.7</td>
+                            <td class="text-center">8.2</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="card-footer">
+                <p class="card-text text-end"><small class="text-body-secondary">ที่มา: สำนักงานคณะกรรมการพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สคช.)</small></p>
+            </div>
+        </div>
+        <p>ตารางพยากรณ์เศรษฐกิจข้างต้น เป็นเข็มทิศสำคัญที่ใช้กำหนดเป้าหมาย ธุรกิจของธนาคารในแต่ละปี ซึ่งจากตัวอย่างเป็นตัวเลขพยากรณ์เศรษฐกิจ ในปี 2559 โดยสำนักงานคณะกรรมการพัฒนาการเศรษฐกิจและสังคมแห่งชาติ (สศช.) หรืออาจเป็นสำนักพยากรณ์ที่น่าเชื่อถืออื่นๆ ก็ใช้แทนได้เช่นกัน ซึ่งปัจจุบันธนาคารส่วนใหญ่ต่างมีสำนักวิจัยเศรษฐกิจของตนเองเพื่อวิเคราะห์ ภาพรวมเศรษฐกิจ ว่าควรจะใช้กลยุทธ์เชิงรุก (Aggressive) หรือตั้งรับ (Passive) ในการกำหนดกลยุทธ์ธุรกิจในปีนั้นๆ</p>
+        <p>จากตารางข้างต้น วิเคราะห์ได้ว่าการเติบโตของเศรษฐกิจเป็นไปในทิศทางที่แย่ลงจากการประมาณการเมื่อวันที่ 16 พฤศจิกายน 2558 เนื่องจากการปรับลดมุมมองการเติบโตของการลงทุนภาคเอกชน และมูลค่าการส่งออกที่ลดลง จากสถานการณ์เศรษฐกิจโลกที่เปลี่ยนแปลงไปจากที่ประมาณการไว้เดิม แต่ภาพรวมถือว่าดีขึ้นเมื่อเทียบกับปี 2558</p>
+        <p>นอกจากนี้ ยังเชื่อว่าการใช้จ่ายและการลงทุนของภาครัฐทั้งงบประจำและงบลงทุนรัฐวิสาหกิจ งบเหลื่อมปี รวมถึงแรงขับเคลื่อนจากมาตรการกระตุ้นเศรษฐกิจของรัฐบาล ค่าเงินบาทที่อ่อนค่าลง รวมถึงราคาน้ำมันที่ยังมีแนวโน้มเคลื่อนไหวในระดับต่ำ ช่วยเพิ่มกำลังซื้อของประชาชน อีกทั้งภาคการท่องเที่ยวที่คาดว่าจำนวนนักท่องเที่ยวจะเดินทางเข้ามาท่องเที่ยวในไทยมากขึ้นในปี 2559</p>
+        <p>สำหรับมุมมองของเศรษฐกิจโลก พบว่ามีความเสี่ยงเพิ่มขึ้นซึ่งจะส่งผลกระทบต่อการส่งออกของไทย ราคาน้ำมันและสินค้าเกษตร โดยที่การฟื้นตัวของเศรษฐกิจของประเทศที่พัฒนาแล้วยังเป็นไปอย่างล่าช้า ขณะที่การชะลอตัวของเศรษฐกิจของประเทศกำลังพัฒนามีความชัดเจนยิ่งขึ้น ทำให้การขยายตัวของเศรษฐกิจโลกอยู่ในเกณฑ์ต่ำ ความผันผวนของระบบการเงินโลกยังค่อนข้างสูง ตามการหดตัวของเศรษฐกิจจีน ปัจจัยดังกล่าวจะทำให้สหรัฐอเมริกา ปรับขึ้นดอกเบี้ยช้าลง ส่วนประเทศสำคัญๆ ยังคงดำเนินนโยบายการเงินที่ผ่อนคลายและต่อเนื่องในช่วงที่เหลือของปี</p>
+        <p>ดังนั้น ภายหลังจากที่ได้ประมวลเหตุการณ์ต่างๆ จะเห็นว่าปี 2559 ยังเป็นปีที่ท้าทายต่อเนื่องจากปีก่อนหน้า ไม่เพียงแต่ปัจจัยภายในประเทศ ยังเห็นแรงกดดันการฟื้นตัวของเศรษฐกิจจากปัจจัยภายนอกประเทศด้วย ทำให้ธนาคารส่วนใหญ่ยังต้องกำหนดนโยบายการทำธุรกิจอย่างระมัดระวังต่อเนื่องต่อไป เพื่อลดความเสี่ยงต่อแนวโน้มการด้อยค่าของสินเชื่อ ทำให้ภาระการตั้งสำรองเพิ่มขึ้น และกดดันกำไรสุทธิให้อ่อนตัวลงในที่สุด</p>
+        
+        <h2>เกร็ดความรู้เรื่อง GDP</h2>
+        <h4 class="text-center p-4">GDP = C + I + G + (X - M)</h4>
+        <p><span class="fs-4">การใช้จ่ายเพื่อการอุปโภคบริโภคของครัวเรือน (C: Private Consumption)</span> ประกอบไปด้วยค่าใช้จ่ายส่วนบุคคลแทบทั้งหมด แบ่งได้ เป็น 2 กลุ่มใหญ่ๆ ได้แก่ ค่าใช้จ่ายเพื่อการอุปโภคบริโภค (อาหาร ค่าเช่า ค่ายารักษาโรค ฯลฯ) และที่ไม่เกี่ยวกับการอุปโภคบริโภค แต่ไม่รวมการซื้อบ้านหลังใหม่</p>
+        <p><span class="fs-4">การวิเคราะห์ C:</span> การเติบโตของ C สะท้อนถึงการที่ผู้บริโภคมีรายได้เยอะขึ้น จึงมีความต้องการจับจ่ายใช้สอยเพิ่มขึ้น ย่อมส่งผลบวกต่อการเติบโตของสินเชื่อรายย่อยของธนาคาร ประกอบด้วย สินเชื่อเช่าซื้อรถยนต์ สินเชื่อบัตรเครดิต สินเชื่อบุคคล</p>
+        <div class="card my-2">
+            <div class="card-header fs-3">ค่าใช้จ่ายเฉลี่ยต่อเดือนของครัวเรือน จำแนกตามประเภทค่าใช้จ่าย ปี 2557</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-1.png" class="img-fluid mx-auto d-block" alt="ค่าใช้จ่ายเฉลี่ยต่อเดือนของครัวเรือน จำแนกตามประเภทค่าใช้จ่าย ปี 2557"></div>
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: สำนักงานสถิติแห่งชาติ</small></p></div>
+        </div>
+        <div class="card my-2">
+            <div class="card-header fs-3">ความสัมพันธ์ระหว่างการเติบโตของ C และการเติบโตของสินเชื่ออุปโภคบริโภคของธนาคารทั้งระบบ ปี 2549 - 2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-2.png" class="img-fluid mx-auto d-block" alt="ค่าใช้จ่ายเฉลี่ยต่อเดือนของครัวเรือน จำแนกตามประเภทค่าใช้จ่าย ปี 2557"></div>            
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+
+        <p><span class="fs-4">การลงทุนของภาคธุรกิจในประเทศ (I: Investment)</span> ได้แก่ การลงทุนในสินค้าทุน เช่น การซื้อเครื่องจักรอุปกรณ์สำหรับโรงงาน การก่อสร้าง การซื้อซอฟต์แวร์ เป็นต้น มีข้อสังเกตคือการใช้จ่ายโดยครัวเรือนเพื่อซื้อบ้านหลังใหม่จะรวมไว้ในการลงทุนของภาคธุรกิจด้วยเช่นกัน</p>
+        <p><span class="fs-4">การวิเคราะห์ I:</span> การเติบโตของ I สะท้อนถึงการที่ภาคธุรกิจและภาคครัวเรือนมีรายได้สูงขึ้น ทำให้มีความต้องการใช้สินเชื่อเพื่อไปลงทุนซึ่งจะส่งผลบวกต่อสินเชื่อรายใหญ่ และสินเชื่อ SME อีกทั้งยังส่งผลบวกต่อ สินเชื่อที่อยู่อาศัยด้วย นอกจากนี้ การวิเคราะห์อัตราการใช้กำลังการผลิตของภาคอุตสาหกรรมต่างๆ โดยเฉพาะภาคอุตสาหกรรมที่มีการใช้กำลังการผลิตเกินกว่า 50% ได้แก่ กลุ่มอุปกรณ์วิทยุ โทรทัศน์ และการสื่อสาร กลุ่มยานยนต์ กลุ่มเคมีภัณฑ์ และผลิตภัณฑ์ปิโตรเคมี เป็นต้น บ่งบอกถึงความต้องการใช้สินเชื่อของธนาคารมากขึ้นในอุตสาหกรรมเหล่านี้ รวมถึงการวิเคราะห์ยอดอนุมัติส่งเสริมโครงการลงทุนจากคณะกรรมการส่งเสริมการลงทุน (BOI) หากมียอดอนุมัติมาก ก็สามารถบ่งบอกทิศทางการลงทุนของภาคธุรกิจและความต้องการสินเชื่อของธนาคารที่ดีด้วยเช่นกัน</p>
+        <div class="card my-2">
+            <div class="card-header">ดัชนีความเชื่อมั่นทางธุรกิจและการนำเข้าสินค้าทุน</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-3.png" class="img-fluid mx-auto d-block" alt="ดัชนีความเชื่อมั่นทางธุรกิจและการนำเข้าสินค้าทุน"></div>
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <div class="card my-2">
+            <div class="card-header">ยอดอนุมัติส่งเสริมการลงทุนของ BOI ปี 2551-2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-4.png" class="img-fluid mx-auto d-block" alt="ยอดอนุมัติส่งเสริมการลงทุนของ BOI ปี 2551-2558"></div>            
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <div class="card my-2">
+            <div class="card-header">อัตราการใช้กำลังการผลิตแยกรายอุตสาหกรรมปี 2554-2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-5.png" class="img-fluid mx-auto d-block" alt="อัตราการใช้กำลังการผลิตแยกรายอุตสาหกรรมปี 2554-2558"></div>            
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <div class="card my-2">
+            <div class="card-header">ความสัมพันธ์ระหว่างการเติบโตของ I และการเติบโตของสินเชื่อภาคธุรกิจของธนาคารทั้งระบบ ปี 2549-2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-6.png" class="img-fluid mx-auto d-block" alt="ความสัมพันธ์ระหว่างการเติบโตของ I และการเติบโตของสินเชื่อภาคธุรกิจของธนาคารทั้งระบบ ปี 2549-2558"></div>            
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+
+        <p><span class="fs-4">การใช้จ่ายของรัฐบาล (G: Government Spending)</span> ได้แก่ ค่าใช้จ่ายทั้งหมดของรัฐบาลที่ใช้ซื้อสินค้าและบริการ ซึ่งรวมถึงการจ่ายเงินเดือนของข้าราชการ การซื้ออาวุธทางทหาร และค่าใช้จ่ายด้านการลงทุนของภาครัฐ</p>
+        <p><span class="fs-4">การวิเคราะห์ G:</span> การเติบโตของ G สะท้อนถึงเม็ดเงินใช้จ่ายของภาครัฐที่หมุนเวียนออกสู่ระบบเศรษฐกิจมากขึ้น ซึ่งจะช่วยกระตุ้นการเติบโตของ GDP ผ่านนโยบายทางการคลัง ยกตัวอย่างเช่น สภาพเศรษฐกิจในประเทศที่ยังฟื้นตัวล่าช้าในปัจจุบัน ทำให้ภาครัฐจำเป็นต้องอัดฉีดเงินผ่านทั้งมาตรการระยะสั้นและระยะยาวเพื่อกระตุ้นเศรษฐกิจให้กลับมาเติบโต เมื่อเศรษฐกิจกลับมาเติบโต ความเชื่อมั่นของภาคเอกชนจะเริ่มฟื้นตัว นำไปสู่การลงทุนและการใช้สินเชื่อจากธนาคารตามมา</p>
+        <div class="card my-3">
+            <div class="card-header">การใช้จ่ายของรัฐในปี 2549 - 2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-7.png" class="img-fluid mx-auto d-block" alt="การใช้จ่ายของรัฐในปี 2549 - 2558"></div>            
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <div class="card my-3">
+            <div class="card-header">การลงทุนของภาครัฐในปี 2549 - 2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-8.png" class="img-fluid mx-auto d-block" alt="การลงทุนของภาครัฐในปี 2549 - 2558"></div>
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <p><span class="fs-4">การส่งออกสุทธิ (X – M)</span> ได้แก่ การส่งออก (X) ลบด้วยการนำเข้า (M) การที่ต้องลบด้วยตัวเลขการนำเข้าเพราะตัวเลขการบริโภคสินค้าและบริการที่นำเข้ามาบริโภคจะรวมไว้ใน C, I และ G แล้ว</p>
+        <p><span class="fs-4">การวิเคราะห์ X - M:</span> การเติบโตของ X-M ต้องอาศัยแรงขับเคลื่อนจากการส่งออก การเติบโตของการส่งออกสะท้อนถึงภาพรวมของเศรษฐกิจของประเทศคู่ค้ากับไทยที่เติบโตอย่างแข็งแกร่ง ทำให้ผู้ประกอบการไทยสามารถผลิตสินค้าและบริการเพื่อจำหน่ายได้มากขึ้น และส่งผลมาถึงความต้องการสินเชื่อจากธนาคารที่สูงขึ้นด้วยเช่นกัน</p>
+        <div class="card my-3">
+            <div class="card-header">การนำเข้า-ส่งออก สินค้าและบริการสุทธิในปี 2549-2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-9.png" class="img-fluid mx-auto d-block" alt="การนำเข้า-ส่งออก สินค้าและบริการสุทธิในปี 2549-2558"></div>
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <h2>ปัจจัยชี้วัดอื่น ๆ ที่ควรพิจารณาเพิ่มเติม</h2>
+        <p><span class="fs-4">ภาวะตลาดอสังหาริมทรัพย์</span> เป็นอีกเครื่องยนต์ที่มีน้ำหนักต่อการเติบโตของเศรษฐกิจโดยรวมของประเทศ ตัวอย่างที่เห็นได้ชัดในช่วงที่เกิดวิกฤตเศรษฐกิจการเงินของไทยในปี 2540 และวิกฤตซับไพร์มในสหรัฐอเมริกาปี 2551 แสดงให้เห็นว่าระบบเศรษฐกิจ ตลาดการเงิน และตลาดสินเชื่อที่อยู่อาศัยมีความเชื่อมโยงกันอย่างหลีกเลี่ยงไม่ได้ตามวัฏจักรเศรษฐกิจที่ผันแปรไป</p>
+        <p>ในช่วงที่เศรษฐกิจขยายตัวดี กิจกรรมทางเศรษฐกิจและธุรกิจต่างๆ สามารถดำเนินไปได้อย่างต่อเนื่อง ความเชื่อมั่นของผู้บริโภคและนักลงทุนทั้งไทยและต่างชาติสูงขึ้น ย่อมทำให้การลงทุนและการระดมทุนผ่านตลาดการเงินมีมากขึ้น เพราะได้ผลตอบแทนที่ดีและมีสภาพคล่องสูง ธนาคารก็มีความเต็มใจที่จะปล่อยสินเชื่อ ขณะที่ภาคครัวเรือนมีรายได้สูงขึ้น ทำให้ความต้องการที่อยู่อาศัยในตลาดเพิ่มขึ้น ทั้งเพื่อการอยู่อาศัยจริง เพื่อการลงทุน รวมถึงการเก็งกำไร ทำให้เกิดความคึกคักในตลาดการเงินและตลาดอสังหาริมทรัพย์</p>
+        <p>ในทางตรงข้าม หากผู้ที่เกี่ยวข้องทั้งผู้ซื้อ ผู้ประกอบการ และธนาคารมีพฤติกรรมเสี่ยงจนนำมาซึ่งการเกิดภาวะฟองสบู่ และเมื่อฟองสบู่แตก ย่อมทำให้เกิดผลกระทบในวงกว้างเพราะภาคอสังหาริมทรัพย์เกี่ยวโยงกับหลายภาคเศรษฐกิจ เช่น ภาคการก่อสร้าง การจ้างงาน และตลาดสินเชื่อ สุดท้ายแล้วก็จะนำมาซึ่งปัญหาเชิงระบบได้ดังเช่นประสบการณ์ในอดีตที่เกิดวิกฤตเศรษฐกิจขึ้น</p>
+        <p>ดังนั้น การเข้าใจถึงทิศทางของภาพรวมเศรษฐกิจ ตลาดการเงิน ซึ่งทำให้ทราบถึงแนวโน้มของสินเชื่อ รวมถึงสินเชื่อที่อยู่อาศัยด้วย จึงมีความสำคัญต่อผู้บริโภค ผู้ประกอบการ นักลงทุน และสถาบันการเงิน ในการเตรียมพร้อมรับมือและสามารถปรับตัวได้อย่างเหมาะสม</p>
+        <div class="card my-3">
+            <div class="card-header">ความสัมพันธ์ระหว่างที่อยู่อาศัยที่จดทะเบียนเพิ่มใน เขต กทม. และปริมณทลและสินเชื่ออสังหาริมทรัพย์ของธนาคารทั้งระบบในปี 2546 - 2558</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-10.png" class="img-fluid mx-auto d-block" alt="ความสัมพันธ์ระหว่างที่อยู่อาศัยที่จดทะเบียนเพิ่มใน เขต กทม. และปริมณทลและสินเชื่ออสังหาริมทรัพย์ของธนาคารทั้งระบบในปี 2546 - 2558"></div>
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <div class="card my-3">
+            <div class="card-header">การเปิดตัวของโครงการใหม่ของผู้ประกอบการที่จดทะเบียนในตลาดหลักทรัพย์ฯ</div>
+            <div class="card-body"><img src="../../src/images/sector-analysis/bank/image-11.png" class="img-fluid mx-auto d-block" alt="การเปิดตัวของโครงการใหม่ของผู้ประกอบการที่จดทะเบียนในตลาดหลักทรัพย์ฯ"></div>
+            <div class="card-footer text-body-secondary"><p class="card-text text-end"><small class="text-body-secondary">ที่มา: ธนาคารแห่งประเทศไทย</small></p></div>
+        </div>
+        <p><span class="fs-4">การท่องเที่ยว</span> การท่องเที่ยวเป็นส่วนหนึ่งของอุตสาหกรรมบริการ ซึ่งประเทศไทยจัดเป็นแหล่งท่องเที่ยวอันดับต้นๆ ที่เป็นที่นิยมของชาวต่างชาติ จึงเป็นอีกเครื่องยนต์หลักที่มีผลต่อการเติบโตของเศรษฐกิจ แม้ภาคการท่องเที่ยวจะคิดเป็นสัดส่วนราว 5% ของ GDP (ณ ราคาตลาด) แต่เป็นภาคเศรษฐกิจที่มีการจ้างงานเป็นจำนวนมาก ดังนั้น การเติบโตหรือถดถอยของภาคการท่องเที่ยว จึงอาจส่งผลกระทบในวงกว้างอย่างมีนัยสำคัญด้วยเช่นกัน</p>
+        <p>การเติบโตของภาคการท่องเที่ยวจะส่งผลบวกที่สำคัญ คือ สร้างรายได้จากเงินตราต่างประเทศเข้าสู่ประเทศ (จากรายจ่ายที่นักท่องเที่ยวใช้จ่ายในการท่องเที่ยวในประเทศ การนำเข้าและส่งออกสินค้าและบริการที่เกี่ยวข้องกับการท่องเที่ยว) นอกจากนี้ยังช่วยส่งเสริมรายได้ของรัฐ การสร้างงานและสร้างโอกาสทางธุรกิจ โดยรายได้จากการท่องเที่ยวจะมีผลบวกเป็นทวีคูณในการสร้างรายได้หมุนเวียนในระบบเศรษฐกิจ โดยเฉพาะการกระจายรายได้ไปสู่ภูมิภาค</p>
+    </div><div class="col-lg-2"></div>
+</div>
+</div>
+</body>
+</html>
+
+
